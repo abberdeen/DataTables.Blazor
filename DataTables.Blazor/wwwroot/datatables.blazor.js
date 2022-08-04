@@ -109,9 +109,7 @@ window.datatablesInterop = {
         if ($(tableElement).DataTable()) {
             var columnByIndex = $(tableElement).DataTable().column(columnIndex, { order: 'index' });
             $(columnByIndex.header()).removeClass(className);
-        }
-    }
-};
+        } 
     }, 
     addEventListener: function (tableElement, eventName, dotNetCallback) {
         if (isEqual(eventName, "onrowclick")) {
