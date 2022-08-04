@@ -48,7 +48,6 @@ namespace DataTables.Blazor.Interop
         /// </summary>
         /// <param name="tableReference">Reference to the DataTable.</param>
         ValueTask AddEventListenerAsync(ElementReference tableReference, string eventName, Object dotNetCallback);
-    }
 
         /// <summary>
         /// Add class to row by index.
